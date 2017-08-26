@@ -119,3 +119,16 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Third app settings #
+
+
+# Project settings #
+PLAYLIST_URL = 'http://127.0.0.1'
+
+PLAYLISTS = [
+    {
+        'TITLE': 'Geluidjes',
+        'SLUG': 'geluidjes',
+        'DESCRIPTION': 'Allerlei grappige geluidjes',
+        'CATEGORIES': ['Sounds']
+    }
+]
